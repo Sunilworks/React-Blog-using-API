@@ -1,0 +1,384 @@
+.Dnav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  left: 0;
+  min-height: 14vh;
+  top: 0;
+  width: 100vw;
+  position: absolute;
+  box-shadow: 3px 3px 6px 0 #00000029;
+}
+.Dnav a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;
+  max-height: 120px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.logo1 {
+  font-weight: 600;
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: "Montserrat", sans-serif;
+  transform: rotate(-90deg);
+  text-decoration: none;
+}
+.logo2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.get-started {
+  border: 2px solid #22e722;
+  color: #22e722;
+  padding: 3px 10px;
+  position: absolute;
+  right: 7vw;
+}
+
+/* For Main container */
+.maincontent {
+  position: absolute;
+  top: 6rem;
+  width: 95%;
+  max-height: 50rem;
+  display: flex;
+  justify-content: center;
+}
+.leftcontent {
+  position: fixed;
+  top: 20rem;
+  left: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.leftcontent img {
+  width: 2rem;
+  margin-bottom: 1rem;
+}
+.like {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: -4rem;
+}
+.like-count {
+  color: grey;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.share {
+  display: flex;
+  align-items: center;
+}
+.share-text {
+  color: grey;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.centercontent {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.avatar {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.avatar img {
+  width: 4rem;
+  margin-right: 1rem;
+}
+.avatar-info {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 1rem;
+  color: #605f5f;
+}
+.social-icon {
+  display: inline-flex;
+  width: 10rem;
+  font-size: 2rem;
+}
+.social-icon svg {
+  width: 3rem;
+}
+
+.img {
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+}
+
+.des {
+  font-size: 20px;
+}
+/* Go Back Button */
+.centercontent button {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 50px;
+  outline: none;
+  margin-left: 10rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  will-change: transform;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.centercontent button:disabled {
+  pointer-events: none;
+}
+
+.centercontent button:hover {
+  color: #fff;
+  background-color: #202020;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* More Content */
+.morecontent {
+  width: 95%;
+  position: absolute;
+  top: 83rem;
+  /* border: 2px solid green; */
+}
+.articlesHorizontal {
+  /* border: 2px solid black; */
+  margin: 20px 20px 0px 32px;
+  height: 80%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.lat1 {
+  background-color: #fffcfc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #e8e3e3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  max-height: 42rem;
+  max-width: 22rem;
+  overflow: hidden;
+  position: relative;
+  /* background-size: cover; */
+}
+figcaption {
+  margin-top: 10px;
+  text-align: left;
+  font: normal normal normal 17px/23px Open Sans;
+  letter-spacing: 0px;
+  color: #908d8d;
+  opacity: 1;
+}
+
+.lat1 img {
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
+}
+
+.lat1 figcaption a {
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.lat1 figcaption p {
+  font-size: 17px;
+  color: #908d8d;
+}
+
+.lat1 figcaption span {
+  color: black;
+}
+
+.bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #404040;
+  font-size: 17px;
+}
+
+.navl{
+  text-decoration: none;
+}
+
+/* Media Query */
+@media only screen and (min-width: 280px) and (max-width: 480px)
+{
+  .Dnav{
+  width: 100vw;
+  min-height: max-content;
+  }
+
+  .centercontent{
+    height: auto;
+    width: 90vw;
+    margin-left: auto;
+  }
+
+  .centercontent button{
+    margin-left: 7rem;
+    background-color:black;
+    color: #fff;
+  }
+  .profile{
+    width: fit-content ;
+  }
+
+  .leftcontent{
+    visibility: hidden;
+  }
+
+  .avatar-info{
+    width: 35vw;
+  }
+
+  .social-icon{
+    margin-top: 1rem;
+  }
+
+  .img{
+    height: 15rem;
+  }
+
+  .des{
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .heading{
+    font-size: 1.6rem;
+  }
+
+  .morecontent{
+    /* margin: auto; */
+    width: 94vw;
+    
+  }
+
+  .articlesHorizontal{
+    position: static;
+    display: block;
+    width: 70vw;
+    margin: 4rem;
+  }
+  .lat1{
+    max-height: 40rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 830px)
+{
+  .Dnav{
+  width: 100vw;
+  min-height: 8vh;
+  }
+
+  .centercontent{
+    height: 100vh;
+    width: 60vw;
+    /* display: block; */
+  }
+
+  .profile{
+    width: fit-content ;
+  }
+
+  .leftcontent{
+    visibility: hidden;
+    margin-left: -5rem;
+  }
+
+  .avatar-info{
+    width: 35vw;
+  }
+
+  .social-icon{
+    margin-top: 1rem;
+  }
+
+  .des{
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .heading{
+    font-size: 1.6rem;
+  }
+
+  .morecontent{
+    /* margin: auto; */
+    width: 100vw;
+    top:74rem;
+  }
+
+  .articlesHorizontal{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .lat1{
+    font-size: 1rem;
+    text-align: justify;
+    width: 24vw;
+    max-height: 22rem;
+  }
+}

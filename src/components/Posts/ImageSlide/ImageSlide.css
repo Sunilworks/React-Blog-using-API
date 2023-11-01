@@ -1,0 +1,30 @@
+.imageSlide {
+    width: 46.8rem;
+    height: 28rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 10px 2px rgb(179, 151, 151);
+  }
+  
+  .slider-mobile {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .slideshow-container {
+      box-sizing: border-box;
+      margin: 4rem auto auto;
+      width: 40rem;
+      height: 25rem;
+    }
+  
+    .slider {
+      display: none;
+    }
+  
+    .slider-mobile {
+      display: block;
+      margin: auto;
+      place-items: center;
+    }
+  }

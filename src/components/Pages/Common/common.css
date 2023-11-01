@@ -1,0 +1,381 @@
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.ruler1 {
+  border: 2px solid #f08080;
+  width: 8%;
+  margin: 6px 0 16px 32px;
+}
+
+.bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #404040;
+  font-size: 17px;
+}
+
+/* Article CSS */
+.articleB {
+  width: 96%;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.articlesvertical {
+  display: flex;
+  flex-flow: column;
+  max-width: fit-content;
+}
+
+.art1 {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 17rem 32rem;
+  grid-template-rows: auto;
+}
+
+.art1 img {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  margin: 1.5rem;
+}
+
+.art1 figcaption {
+  grid-column: 2/3;
+  grid-row: 1;
+  position: relative;
+  color: rgb(25, 24, 24);
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+}
+
+.art1 figcaption a {
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.art1 figcaption p {
+  font-size: 17px;
+  color: #908d8d;
+}
+
+.art1 figcaption span {
+  color: black;
+}
+
+.hr {
+  margin: 0px;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.ad-boxB {
+  grid-column: 2/3;
+  position: absolute;
+  top: 63rem;
+  right: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  box-shadow: 0 0 5px 2px rgb(218, 217, 217);
+  margin: 0 1rem 0 8rem;
+  width: 26rem;
+  height: 54rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ad-boxB img{
+  height: 52rem;
+  width: 24rem;
+  background-size: cover;
+}
+
+/* Post Css */
+.postB {
+  box-sizing: border-box;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 0rem;
+  top: 13.7rem;
+  width: 30rem;
+}
+
+.postsverticalsmall {
+  position: relative;
+}
+
+.post1 {
+  position: relative;
+}
+
+.postB img {
+  display: inline-block;
+  background-size: cover;
+  width: 10rem;
+  height: 7rem;
+  margin: 1rem 1rem 0 0;
+}
+
+.post1 a {
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  max-width: 15rem;
+  margin: 1rem 0;
+}
+
+.post1 figcaption {
+  margin-top: -30px;
+  text-align: left;
+  font: normal normal normal 17px/23px Open Sans;
+  letter-spacing: 0px;
+  color: #908d8d;
+  opacity: 1;
+}
+
+/* Error Css */
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error button {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 2rem;
+}
+
+.error button:hover,
+.error button:focus {
+  opacity: 0.75;
+}
+/* Go Back Button */
+.articleB button {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 38rem;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  /* padding: 12px 14px; */
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+  margin-bottom: 2rem;
+}
+
+.articleB button:disabled {
+  pointer-events: none;
+}
+
+.articleB button:hover {
+  color: #fff;
+  background-color: #202020;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.navl {
+  text-decoration: none;
+}
+
+/* Media Query */
+@media only screen and (min-width: 280px) and (max-width: 480px)
+{
+  .ruler{
+    display: none;
+  }
+  .articleB{
+    margin: 0;
+    margin-top: 1rem;
+    width: 96vw;
+    display: block;
+  }
+
+  .articleB a{
+    font-size: 1rem;
+  }
+
+  .art1{
+   display: grid;
+   grid-template-columns: 10rem 12rem;
+   grid-template-rows: auto;
+  }
+
+  .art1 img{
+    width: 10rem;
+    height: 12rem;
+  }
+
+  .art1 figcaption{
+    width: 54vw;
+    height: 10vh;
+  }
+
+  .art1 figcaption a{
+    font-size: 0.8rem;
+    line-height: 10px;
+    height: 1rem;
+  }
+
+  .art1 figcaption p{
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+  }
+  .art1 figcaption span{
+    font-size: 0.7rem;
+  }
+
+
+  .postB{
+    /* display: block; */ 
+    position: static;
+    width: 80vw;
+    font-size: 1rem;
+  }
+
+  .postB a{
+    font-size: 1rem;
+  }
+
+  .ad-boxB{
+    position: static;
+    margin: auto;
+    margin-top: 1rem;
+    /* margin-bottom: 5rem; */
+    width: 80vw;
+  }
+  .ad-boxB img{
+    width: 18rem;
+  }
+
+  .articleB button{
+    width: 6rem;
+    margin-left: 10rem;
+    background-color:black;
+    color: #fff;
+  }
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 830px)
+{
+  .art1{
+    display: grid;
+    grid-template-columns: 9rem 18rem;
+    grid-template-rows: auto;
+   }
+ 
+   .art1 img{
+     width: 8rem;
+     height: 14rem;
+   }
+ 
+   .art1 figcaption a{
+     font-size: 1rem;
+     line-height: 5px;
+   }
+ 
+   .art1 figcaption p{
+     font-size: 0.7rem;
+     line-height: 0.7rem;
+   }
+   .art1 figcaption span{
+     font-size: 0.7rem;
+   }
+   .postB{
+    right: 2rem;
+    font-size: 0.6rem;
+    width: 20rem;
+  }
+  .post1 a{
+    width: 7rem;
+    font-size: 0.8rem;
+  }
+  .postsverticalsmall{
+    width: 20rem;
+  }
+  .ad-boxB{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    right: 2rem;
+    height: 50rem;
+    width: 18rem;
+  }
+  .ad-boxB img{
+    width: 18rem;
+  }
+  .articleB button{
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    background-color:black;
+    color: #fff;  
+  }
+}

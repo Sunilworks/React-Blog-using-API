@@ -1,0 +1,79 @@
+.latest {
+  width: 100%;
+  height: 600px;
+  /* border: solid black; */
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.ruler1 {
+  border: 2px solid #f08080;
+  width: 8%;
+  margin: 6px 0 0 6px;
+}
+
+.articlesHorizontal {
+  /* border: 2px solid black; */
+  margin: 20px 20px 0px 20px;
+  height: 80%;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lat1 {
+  background-color: #fffcfc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #e8e3e3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem 0;
+  max-height: 42rem;
+  max-width: 22rem;
+  overflow: hidden;
+  position: relative;
+  /* background-size: cover; */
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: left;
+  font: normal normal normal 17px/23px Open Sans;
+  letter-spacing: 0px;
+  color: #908d8d;
+  opacity: 1;
+}
+
+.lat1 img {
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
+
+}
+
+.lat1 figcaption a {
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.lat1 figcaption p {
+  font-size: 17px;
+  color: #908D8D;
+}
+
+.lat1 figcaption span {
+  color: black;
+}
+
+.bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #404040;
+  font-size: 17px;
+}

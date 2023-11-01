@@ -1,0 +1,80 @@
+.article {
+  width: 100%;
+}
+
+.articlesvertical {
+  display: flex;
+  flex-flow: column;
+  max-width: fit-content;
+}
+
+.art1 {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 17rem 32rem;
+  grid-template-rows: auto;
+}
+
+.art1 img {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  margin: 1.5rem;
+
+}
+
+.art1 figcaption {
+  grid-column: 2/3;
+  grid-row: 1;
+  position: relative;
+  color: rgb(25, 24, 24);
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+
+}
+
+.art1 figcaption a {
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.art1 figcaption p {
+  font-size: 17px;
+  color: #908D8D;
+}
+
+.art1 figcaption span {
+  color: black;
+}
+
+.hr {
+  margin: 0px;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.ad-box {
+  grid-column: 2/3;
+  position: absolute;
+  right: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+
+  box-shadow: 0 0 5px 2px rgb(218, 217, 217);
+  margin: 0 1rem 0 8rem;
+  width: 26rem;
+  height: 54rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
